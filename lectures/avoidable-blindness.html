@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Avoidable Blindness</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Avoidable Blindness</h1>
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+        <!-- READ SUMMARY CONTAINER -->
+        
+              <!-- Summary Overlay -->
+              <div class="summary-overlay" id="summaryOverlay"></div>
+        
+        
+              <div class="summary-card" id="summaryCard">
+                
+                <div class="summary-header">
+                  <h3>Note Summary</h3>
+                  <div class="icon-box">
+                    <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                    <img src="../images/icons/summary.png" alt="Icon" class="icon">
+                  </div>
+                </div>
+                <div class="summary-content">
+                  <!-- Summary content goes here -->
+                  <p><i>This content is not available yet.</i></p>
+        
+                  <span class="close-btn" id="closeBtn">close</span>
+                </div>
+              </div>
+        
+              <div class="summary-trigger" id="summaryTrigger">
+                <p>Click here to read a summary</p>
+            </div>
+        <!-- END OF READ SUMMARY CONTAINER -->
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Definitions</h4>
+
+            <ul>
+                <li><strong>Blindness:</strong> Visual acuity of less than 3/60 or a corresponding visual field loss to less than 10° in the better eye with the best possible correction. (ICD-10 Codes 3, 4, & 5)</li>
+                <li><strong>Low Vision:</strong> Corresponds to visual acuity of less than 6/18 but equal to or better than 3/60 in the better eye with the best correction. (ICD-10 Codes 1 & 2)</li>
+                <li><strong>Mild Vision Impairment:</strong> Visual acuity worse than 6/12 to 6/18</li>
+                <li><strong>Moderate Vision Impairment:</strong> Visual acuity worse than 6/18 to 6/60</li>
+                <li><strong>Severe Vision Impairment:</strong> Visual acuity worse than 6/60 to 3/60</li>
+                <li><strong>Normal Vision:</strong> Visual acuity better/equal to 6/12 in the better eye.</li>
+            </ul>
+            
+            <table class="note-table">
+                <tr>
+                  <th>Snellen VA</th>
+                  <th>VA (logMAR)</th>
+                  <th>Classification</th>
+                </tr>
+                <tr>
+                  <td>≥ 6/18</td>
+                  <td>≥ 0.5</td>
+                  <td>Normal/no visual impairment</td>
+                </tr>
+                <tr>
+                  <td><6/18-6/60</td>
+                  <td><0.5-1.0</td>
+                  <td>Moderate visual impairment</td>
+                </tr>
+                <tr>
+                  <td><6/60-3/60 (6/120)</td>
+                  <td>< 1.0-1.30</td>
+                  <td>Severe visual impairment</td>
+                </tr>
+                <tr>
+                  <td><3/60</td>
+                  <td>< 1.30</td>
+                  <td>Blind</td>
+                </tr>
+                <tr>
+                  <td colspan="3">Note: Moderate and severe visual impairment constitute low vision.</td>
+                </tr>
+                <tr>
+                  <td colspan="3">VA, visual acuity; logMAR, logarithm of the minimum angle of resolution.</td>
+                </tr>
+              </table>
+
+              <h4>Categories of Visual Impairment based on visual acuity criteria under World Health Organization International Classification of Disease (ICD) 9th revision and ICD-10 (2006 revision) and National Program for Control of Blindness (NPCB), India.</h4>
+
+                          <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/avoidable-blindness (1).jpg" alt="" onclick="openModal(this)">
+                <div class="caption">Categories of Visual Impairment</div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Categories of Visual Impairment</div>
+              </div>
+
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Epidemiology of Blindness</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><strong>Globally:</strong> 45 million people are blind.</li>
+                <li><strong>60%:</strong> Blind people are women.</li>
+                <li><strong>90%:</strong> Of blind people live in low-income countries.</li>
+                <li><strong>80%:</strong> Of global blindness is preventable or treatable.</li>
+                <li><strong>Overall:</strong> The number of people with low vision is estimated to be 269 million.</li>
+                <li><strong>Visual Impairment:</strong> The number of people with visual impairment (including both low vision and blindness) is estimated to be 314 million worldwide.</li>
+            </ul>
+            
+            <h4>The Nigeria National Blindness Survey</h4>
+
+            <ul>
+                <li><strong>Study Size:</strong> The study was the largest and more detailed eye survey in Nigeria, with 15,375 people aged 40 years and older recruited.</li>
+                <li><strong>Objectives:</strong> The objectives of the survey were to determine the prevalence, causes, and magnitude of blindness and visual impairment, and risk factors in individuals aged ≥40 years.</li>
+                <li><strong>Data Paucity:</strong> There is a paucity of survey data from West and Central Africa, where some of the poorest countries in the world are located. As poverty is closely associated with blindness, it is likely that the age-specific prevalence of blindness in West Africa is higher than in industrialized countries and in Asia.</li>
+                <li><strong>Prevalence:</strong> Approximately 1.13 million blind people, 40 years and above. In addition, 2.7 million adults aged 40 years and above were reported to have moderate visual impairment, and an additional 400,000 adults were severely visually impaired.</li>
+                <li><strong>Avoidable Blindness:</strong> In 84%, blindness was avoidable.</li>
+                <li><strong>Blindness Prevalence:</strong> The prevalence of blindness (VA<3/60 in the better eye) using presenting VA (PVA) was 4.2% (95% CI: 3.8-4.6%).</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Causes of Blindness</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+
+
+            <ul>
+                <li><strong>Avoidable Blindness:</strong> Can be treated or prevented by known, cost-effective methods, e.g., cataract, refractive error, or diabetic retinopathy. Treatable + preventable blindness.</li>
+                <li><strong>Treatable Blindness:</strong> Vision can be restored with cost-effective treatment methods.</li>
+                <li><strong>Preventable Blindness:</strong> Loss of vision could be completely prevented by the institution of effective preventive and prophylactic methods, e.g., xerophthalmia and trachoma.</li>
+                <li><strong>Unavoidable Blindness:</strong> Blindness can neither be treated nor prevented, e.g., inherited retina disorders, ARMD (Age-Related Macular Degeneration).</li>
+            </ul>
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/avoidable-blindness (2).jpg" alt="" onclick="openModal(this)">
+                            <div class="caption">Causes of Blindness</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">Causes of Blindness</div>
+                          </div>
+                
+            <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/avoidable-blindness (1).png" alt="" onclick="openModal(this)">
+                <div class="caption">Causes of Blindness</div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Causes of Blindness</div>
+              </div>
+
+                          <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/avoidable-blindness (3).jpg" alt="" onclick="openModal(this)">
+                <div class="caption">Causes of Blindness</div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Causes of Blindness</div>
+              </div>
+
+              <h4>Causes of Blindness in Nigeria</h4>
+
+              <ul>
+                  <li><strong>Cataract:</strong> The most common cause of blindness (43%), followed by glaucoma (16.7%).</li>
+                  <li><strong>Major Causes of Visual Impairment:</strong> (PVA of 6/18 to 3/60 in the better eye) were uncorrected refractive error (62%), followed by cataract (22.1%) and uncorrected aphakia (3.3%).</li>
+              </ul>
+              
+              <h4>Risk Factors for Blindness</h4>
+              
+              <ul>
+                  <li><strong>Increasing Age.</strong></li>
+                  <li><strong>Females:</strong> Had nearly twice the risk of having PVA <6/60 due to cataract compared with males.</li>
+                  <li><strong>Poor Literacy.</strong></li>
+                  <li><strong>Rural Dwelling.</strong></li>
+              </ul>
+              
+              <p><strong>Regional Variation:</strong></p>
+              <ul>
+                  <li><strong>Southwest:</strong> Had the least blindness.</li>
+                  <li><strong>North East:</strong> Had the highest blindness burden.</li>
+              </ul>
+              
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Prevention of Avoidable Blindness</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+                <li><strong>Vision 2020, The Right to Sight:</strong> Jointly initiated by the World Health Organization (WHO) and the International Agency for the Prevention of Blindness in 1999.</li>
+                <li><strong>Main Mission of V2020:</strong> The Right to Sight initiative was to eliminate the principal causes of avoidable blindness by the year 2020, by ensuring that sustainable National Eye Care Programs were developed and meticulously implemented.</li>
+                <li><strong>Core Strategies:</strong> The initiative had 3 core strategies that were expected to be incorporated into the existing primary health-care (PHC) system.</li>
+            </ul>
+            
+            <h4>Core Strategies:</h4>
+            
+            <ol>
+                <li><strong>Disease Control:</strong> Cataract, refractive error, onchocerciasis, trachoma, and childhood blindness were the initial diseases of focus. Later, glaucoma and diabetic retinopathy were included.</li>
+                <li><strong>Infrastructural Development:</strong> A healthy hospital environment has an impact on quick recovery. The optimum level of patients' comfort and holistic care can only be guaranteed when the hospital environment is appropriate and conducive.</li>
+                <li><strong>Human Resource Development:</strong> The major focus here was equitable training and retraining of all cadres of eye care workers.</li>
+            </ol>
+            
+            <h4>Cataract</h4>
+
+            <ul>
+                <li>The availability of low-cost, good-quality intraocular lenses (IOLs) has resulted in an increase in the quality of visual outcome for patients after cataract surgery.</li>
+                <li>The introduction of small incision cataract surgery (SICS) has resulted in a faster and better restoration of visual acuity. With SICS, in addition, the cost per operation is also lower.</li>
+            </ul>
+
+            <h4>Trachoma</h4>
+
+            <ul>
+                <li><strong>SAFE Strategy for Trachoma Control:</strong> The SAFE strategy involves Surgery for trichiasis, Antibiotics to clear infection, Facial cleanliness, and Environmental improvements to reduce transmission.</li>
+                <li><strong>Tarsal Rotation Surgery for Trichiasis:</strong> A surgical procedure for correcting trichiasis.</li>
+                <li><strong>Oral Azithromycin:</strong> Has become the first-choice antibiotic for mass treatment of communities with endemic trachoma infection.</li>
+                <li><strong>Improvements in Water Supply and Sanitation:</strong> Significantly reduced the transmission of trachoma infection in poor rural communities.</li>
+            </ul>
+            
+
+            <h4>Onchocerciasis</h4>
+
+            <ul>
+                <li>Providing Mectizan® free of charge to individuals and communities with onchocerciasis.</li>
+            </ul>
+            
+            <h4>Childhood Blindness</h4>
+
+            <ul>
+                <li>Health education on breast feeding.</li>
+                <li>Vitamin A fortification of food.</li>
+                <li>Immunization.</li>
+            </ul>
+            
+
+            <h4>Uncorrected Refractive Error</h4>
+
+            <ul>
+                <li>Provision of good refraction services and appropriate dispensing of low-cost but good-quality spectacles.</li>
+                <li>Health education against bias towards spectacle use.</li>
+            </ul>
+            
+
+            <h4>Glaucoma</h4>
+
+            <ul>
+                <li>Population-based screening should be advocated for glaucoma.</li>
+                <li>Opportunistic case detection should be encouraged.</li>
+                <li>Availability of affordable drugs.</li>
+            </ul>
+            
+
+            <h4>Diabetic Retinopathy</h4>
+
+            <ul>
+                <li>Establishment of routine DR screening services in the communities and hospitals.</li>
+                <li>Health education on blood sugar control.</li>
+                <li>Prompt referral for treatment once sight-threatening DR is detected.</li>
+            </ul>
+            
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Conclusion</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>&gt; 80% of the causes of blindness are avoidable. The commonest cause of blindness is cataract. The risk of avoidable blindness increases with increasing age, female gender, and rural dwelling.</p>
+            
+        </div>
+      </section>
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1" class="comment-button">
+            here
+            <img src="../images/icons/whatsapp.png" alt="Image Icon">
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The content on this ‘Website’, including but not limited to text, graphics, images, videos, and other materials, should not be considered as a substitute for formal medical education or clinical training. The creators and operators of this Website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the Website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this Website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>     
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+          <p><a href="https://chat.whatsapp.com/FtDdb6uEFYzBCnTnMgm2Z1">say hi👋</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+</body>
+</html>
+ 
